@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: crowdin action
-      uses: crowdin/github-action@d0622816ed4f4744db27d04374b2cef6867f7bed
+      uses: rickycodes/github-action@deb06592ad2a702b7e4157d7604e0addbffdac0a
       with:
         upload_translations: true
         download_translations: true
